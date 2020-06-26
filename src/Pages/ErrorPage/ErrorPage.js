@@ -3,16 +3,20 @@ import './ErrorPage.scss';
 import Header from '../../Components/Header/Header';
 import ErrorContainer from '../../Components/ErrorContainer/ErrorContainer';
 import SliderHolder from '../../Components/SliderHolder/SliderHolder';
-import PlaylistData from '../../DB/viu.json';
 
 const ErrorPage = () => {
   const [isLoading, setLoading] = useState(true);
+  const [apiResponse, setApiResponse] = useState({});
+
+  const getData = async () => {
+    const res = await fetch('https://viu-server-json.herokuapp.com/response');
+    const data = await res.json();
+    setApiResponse(data);
+    setLoading(false);
+  };
 
   useEffect(() => {
-    // replace with API call
-    setTimeout(() => {
-      setLoading(false);
-    }, 3000);
+    getData();
   }, []);
 
   if (isLoading) {
@@ -21,9 +25,9 @@ const ErrorPage = () => {
 
   return (
     <>
-      <Header header={PlaylistData.header} />
-      <ErrorContainer errorData={PlaylistData.spotlight.error} />
-      <SliderHolder playlist={PlaylistData.videoList} />
+      <Header header={apiResponse.header} />
+      <ErrorContainer errorData={apiResponse.spotlight.error} />
+      <SliderHolder playlist={apiResponse.videoList} />
     </>
   );
 };
