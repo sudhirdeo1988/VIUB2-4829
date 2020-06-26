@@ -89,26 +89,28 @@ const PlaylistSlider = (props) => {
     ],
   };
   return (
-    <div>
+    <>
       {playlistData.map((playlistItem, index) => {
         return (
-          <div key={index}>
-            <div className='c-sliderHeader'>
-              <div className='c-header__section'>
-                <h2 className='c-header__title'>{playlistItem.title}</h2>
+          playlistItem.videoThumbnails.length > 0 && (
+            <div key={index}>
+              <div className='c-sliderHeader'>
+                <div className='c-header__section'>
+                  <h2 className='c-header__title'>{playlistItem.title}</h2>
+                </div>
+              </div>
+              <div className='c-contentslider'>
+                <Slider {...settings}>
+                  {playlistItem.videoThumbnails.map((item, index) => (
+                    <PlaylistSliderItem videoItem={item} key={index} />
+                  ))}
+                </Slider>
               </div>
             </div>
-            <div className='c-contentslider'>
-              <Slider {...settings}>
-                {playlistItem.videoThumbnails.map((item, index) => (
-                  <PlaylistSliderItem videoItem={item} key={index} />
-                ))}
-              </Slider>
-            </div>
-          </div>
+          )
         );
       })}
-    </div>
+    </>
   );
 };
 
