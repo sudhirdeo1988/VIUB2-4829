@@ -1,12 +1,12 @@
 import React from 'react';
-import ImageItem from '../../assets/images/1165691922_2.webp';
 import './PlaylistSliderItem.scss';
 
-const PlaylistSliderItem = () => {
+const PlaylistSliderItem = (props) => {
+    const {videoItem} = props;
     return(
         <div className="c-contentslider__griditem">
-            <a href='https://www.viu.com' className="thumbnailLink">
-                <img src={ImageItem} alt='viu' />
+            <a href={videoItem.redirectUrl} className="thumbnailLink">
+                <img src={videoItem.imageUrl} alt={videoItem.imageAlt} />
                 <div className="c-griditem-overlay">
                     <div className="c-overlay__playbtn"><i className="icon viu-play-1"></i></div>
                 </div>

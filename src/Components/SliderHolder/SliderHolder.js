@@ -1,11 +1,12 @@
 import React from 'react';
 import PlaylistSlider from '../PlaylistSlider/PlaylistSlider';
 
-const SliderHolder = () => {
+const SliderHolder = (props) => {
+    const { playlist } = props;
     return (
         <div className="c-wrapperContainer">
             <div className="c-comp-holder">
-                <PlaylistSlider />
+                <PlaylistSlider playlistData={playlist} />
             </div>
         </div>
     );

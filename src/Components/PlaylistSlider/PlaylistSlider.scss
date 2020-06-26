@@ -73,3 +73,15 @@
 .slick-arrow.slick-prev.slick-disabled {
   visibility: $novis;
 }
+
+@media (max-width: 768px){
+  .c-sliderHeader{
+    .c-header__title {
+        float: none;
+        font-size: 17px;
+        line-height: 20px;
+        word-break: normal;
+        white-space: normal;
+    }
+  } 
+}

@@ -89,3 +89,19 @@
             }
         }
 }
+
+@media (max-width: 768px){
+    .c-contentslider__griditem{
+        height: 126px;
+        width: 84px;
+        border-radius: 2px;
+        margin: 0 8px 0 0!important;
+        .thumbnailLink{
+            img {
+                height: 126px;
+                width: 84px;
+                border-radius: 2px;
+            }
+        }
+    } 
+}
