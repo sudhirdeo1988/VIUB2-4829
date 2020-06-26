@@ -7,12 +7,17 @@ import PlaylistData from '../../DB/viu.json';
 
 const ErrorPage = () => {
   const [isLoading, setLoading] = useState(true);
+  const [apiResponse, setApiResponse] = useState({});
+
+  const getData = async () => {
+    const res = await fetch('https://viu-server-json.herokuapp.com/response');
+    const data = await res.json();
+    setApiResponse(data);
+    setLoading(false);
+  };
 
   useEffect(() => {
-    // replace with API call
-    setTimeout(() => {
-      setLoading(false);
-    }, 3000);
+    getData();
   }, []);
 
   if (isLoading) {
@@ -22,8 +27,8 @@ const ErrorPage = () => {
   return (
     <>
       <Header header={PlaylistData.header} />
-      <ErrorContainer errorData={PlaylistData.spotlight.error} />
-      <SliderHolder playlist={PlaylistData.videoList} />
+      <ErrorContainer errorData={apiResponse.spotlight.error} />
+      <SliderHolder playlist={apiResponse.videoList} />
     </>
   );
 };
