@@ -1,0 +1,56 @@
+@mixin rounded-corners($property) {
+  -webkit-border-radius: $property;
+  -moz-border-radius: $property;
+  border-radius: $property;
+}
+
+@mixin box-shadow($property) {
+  box-shadow: $property;
+  -moz-box-shadow: $property;
+  -webkit-box-shadow: $property;
+  -ms-box-shadow: $property;
+  -o-box-shadow: $property;
+}
+
+@mixin transition($property) {
+  transition: $property;
+  -moz-transition: $property;
+  -webkit-transition: $property;
+  -o-transition: $property;
+  -ms-transition: $property;
+}
+
+@mixin media($size) {
+  @media (max-width: $size) {
+    @content;
+  }
+}
+
+@mixin media-only($size) {
+  @media only screen and (min-width: $size) {
+    @content;
+  }
+}
+
+@mixin scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #424242;
+  box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+@mixin btn-confirm-class {
+  width: 240px;
+  height: 72px;
+  border-radius: 49px;
+  background-color: #f8b20d;
+  border-color: transparent;
+  font-family: 'Biotif-bold', 'Segoe UI', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+  cursor: pointer;
+}

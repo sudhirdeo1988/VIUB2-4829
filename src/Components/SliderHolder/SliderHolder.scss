@@ -1,0 +1,9 @@
+@import '../../assets/scss/variables';
+@import '../../assets/scss/mixins';
+
+.c-comp-holder{
+    background-color: red;
+    padding: 0;
+    margin-bottom: 30px;
+    position: relative;
+}

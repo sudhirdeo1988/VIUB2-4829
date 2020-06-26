@@ -1,0 +1,28 @@
+$brand-color: #ffbf00;
+$lighter-brand-color: adjust-color($brand-color, $green: -1);
+$title-color: #555;
+$danger-color: #d50000; // aka Error color
+$hover-text-color: #664c00;
+$back-button-color: #ccc;
+$button-hover-color: #feca00;
+$dark-background-color: #141414;
+$dark-background-color-new: #121212;
+$white: #fff;
+$black: #000;
+
+$large: 1024px;
+$medium: 960px;
+$small: 768px;
+$xsmall: 480px;
+
+$noborder: 0 none;
+$margin-center: 0 auto;
+$hide: none;
+$show: block;
+$novis: hidden;
+$text-uppercase: uppercase;
+$common-transition: all ease 0.3s;
+
+$primary-font: 'Biotif-bold', 'Segoe UI', sans-serif;
+$notokufi-font: 'NotoKufiArabic', sans-serif;
+$viu-font: 'viu-b-20';

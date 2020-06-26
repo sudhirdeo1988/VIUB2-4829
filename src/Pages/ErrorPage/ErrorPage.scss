@@ -1,0 +1,9 @@
+@import '../../assets/scss/variables';
+@import '../../assets/scss/mixins';
+
+.c-wrapperContainer{
+    position: relative;
+    margin: 0 auto;
+    max-width: 1264px;
+    padding: 0 10px;
+}

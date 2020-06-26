@@ -1,0 +1,737 @@
+@import '../scss/mixins';
+@import '../scss/variables';
+
+/* --------- Font settings ------- */
+@font-face {
+  font-family: 'Biotif';
+  src: url('../fonts/biotif-webfonts/Biotif-Regular.eot');
+  src: url('../fonts/biotif-webfonts/Biotif-Regular.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/biotif-webfonts/Biotif-Regular.woff2') format('woff2'),
+    url('../fonts/biotif-webfonts/Biotif-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Biotif-bold';
+  src: url('../fonts/biotif-webfonts/Biotif-SemiBold.eot');
+  src: url('../fonts/biotif-webfonts/Biotif-SemiBold.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/biotif-webfonts/Biotif-SemiBold.woff2') format('woff2'),
+    url('../fonts/biotif-webfonts/Biotif-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'NotoKufiArabic';
+  src: url('../fonts/NotoKufiArabic-font/NotoKufiArabic-Regular.ttf')
+    format('truetype');
+}
+
+/* --------- Icon Fonts ------- */
+@font-face {
+  font-family: $viu-font;
+  src: url('../fonts/viu-b-20.eot');
+  src: url('../fonts/viu-b-20.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/viu-b-20.woff') format('woff'),
+    url('../fonts/viu-b-20.ttf') format('truetype'),
+    url('../fonts/viu-b-20.svg#viu-b-20') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon] {
+  &::before {
+    font-family: $viu-font !important;
+    content: attr(data-icon);
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+[class^='viu-'] {
+  &::before {
+    font-family: $viu-font !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+[class*='viu-'] {
+  &::before {
+    font-family: $viu-font !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+.viu-ic-play-white-48 {
+  &::before {
+    content: '\61';
+  }
+}
+.viu-angle-down {
+  &::before {
+    content: '\62';
+  }
+}
+.viu-angle-left {
+  &::before {
+    content: '\63';
+  }
+}
+.viu-angle-right {
+  &::before {
+    content: '\64';
+  }
+}
+.viu-angle-up {
+  &::before {
+    content: '\65';
+  }
+}
+.viu-plus-circled-1 {
+  &::before {
+    content: '\67';
+  }
+}
+.viu-cancel-circled {
+  &::before {
+    content: '\66';
+  }
+}
+.viu-minus-circle {
+  &::before {
+    content: '\68';
+  }
+}
+.viu-checked {
+  &::before {
+    content: '\6a';
+  }
+}
+.viu-ic-arrow-back-black-24-px {
+  &::before {
+    content: '\69';
+  }
+}
+.viu-warning {
+  &::before {
+    content: '\6b';
+  }
+}
+.viu-ic-menu-white-24-copy-2 {
+  &::before {
+    content: '\6c';
+  }
+}
+.viu-search {
+  &::before {
+    content: '\6d';
+  }
+}
+.viu-apple {
+  &::before {
+    content: '\6e';
+  }
+}
+.viu-facebook-official {
+  &::before {
+    content: '\6f';
+  }
+}
+.viu-twitter {
+  &::before {
+    content: '\70';
+  }
+}
+.viu-instagram-logo {
+  &::before {
+    content: '\33';
+  }
+}
+.viu-youtube-alt {
+  &::before {
+    content: '\72';
+  }
+}
+.viu-playstore {
+  &::before {
+    content: '\71';
+  }
+}
+.viu-ic-radio-button-unchecked-black-24-px {
+  &::before {
+    content: '\75';
+  }
+}
+.viu-ic-radio-button-unchecked-black-24-px-1 {
+  &::before {
+    content: '\76';
+  }
+}
+.viu-close-button {
+  &::before {
+    content: '\73';
+  }
+}
+.viu-eye {
+  &::before {
+    content: '\74';
+  }
+}
+.viu-eye-2 {
+  &::before {
+    content: '\79';
+  }
+}
+.viu-eye-disabled {
+  &::before {
+    content: '\7a';
+  }
+}
+.viu-invisible-1 {
+  &::before {
+    content: '\41';
+  }
+}
+.viu-line-chart {
+  &::before {
+    content: '\77';
+  }
+}
+.viu-clock {
+  &::before {
+    content: '\78';
+  }
+}
+.viu-credit-card {
+  &::before {
+    content: '\42';
+  }
+}
+.viu-gift-card {
+  &::before {
+    content: '\43';
+  }
+}
+.viu-stars {
+  &::before {
+    content: '\44';
+  }
+}
+.viu-down-dir {
+  &::before {
+    content: '\45';
+  }
+}
+.viu-facebook {
+  &::before {
+    content: '\46';
+  }
+}
+.viu-google-logo {
+  &::before {
+    content: '\49';
+  }
+}
+.viu-ic-next {
+  &::before {
+    content: '\47';
+  }
+}
+.viu-ic-fullscreen {
+  &::before {
+    content: '\48';
+  }
+}
+.viu-ic-exit-fullscreen {
+  &::before {
+    content: '\4a';
+  }
+}
+.viu-ic-subtitles {
+  &::before {
+    content: '\4b';
+    content: '\50';
+  }
+}
+.viu-earth-globe {
+  &::before {
+    content: '\4c';
+  }
+}
+.viu-baseline-language {
+  &::before {
+    content: '\4d';
+  }
+}
+.viu-wordpress {
+  &::before {
+    content: '\4e';
+  }
+}
+.viu-share {
+  &::before {
+    content: '\4f';
+  }
+}
+.viu-icon {
+  &::before {
+    content: '\4b';
+  }
+}
+.viu-ic-share-grey-28 {
+  &::before {
+    content: '\51';
+  }
+}
+.viu-ic-trending {
+  &::before {
+    content: '\52';
+  }
+}
+.viu-play-1 {
+  &::before {
+    content: '\54';
+  }
+}
+.viu-android-add {
+  &::before {
+    content: '\53';
+  }
+}
+.viu-dot {
+  &::before {
+    content: '\55';
+  }
+}
+.viu-square-o {
+  &::before {
+    content: '\56';
+  }
+}
+.viu-square {
+  &::before {
+    content: '\57';
+  }
+}
+.viu-th {
+  &::before {
+    content: '\58';
+  }
+}
+.viu-caret-down {
+  &::before {
+    content: '\59';
+  }
+}
+.viu-caret-up {
+  &::before {
+    content: '\5a';
+  }
+}
+.viu-caret-up-down {
+  &::before {
+    content: '\30';
+  }
+}
+.viu-caret-down-1 {
+  &::before {
+    content: '\31';
+  }
+}
+.viu-caret-up-1 {
+  &::before {
+    content: '\32';
+  }
+}
+.viu-information {
+  &::before {
+    content: '\34';
+  }
+}
+.viu-share-1 {
+  &::before {
+    content: '\35';
+  }
+}
+.viu-gridview {
+  &::before {
+    content: '\36';
+  }
+}
+.viu-defaultview {
+  &::before {
+    content: '\37';
+  }
+}
+.viu-edit {
+  &::before {
+    content: '\38';
+  }
+}
+.viu-exclamation {
+  &::before {
+    content: '\39';
+  }
+}
+.viu-tick {
+  &::before {
+    content: '\21';
+  }
+}
+.viu-check-circle {
+  &::before {
+    content: '\22';
+  }
+}
+.viu-envelope-o {
+  &::before {
+    content: '\23';
+  }
+}
+.viu-bookmark {
+  &::before {
+    content: '\26';
+  }
+}
+.viu-bookmark-o {
+  &::before {
+    content: '\27';
+  }
+}
+.viu-responsive {
+  &::before {
+    content: '\24';
+  }
+}
+.viu-notification {
+  &::before {
+    content: '\25';
+  }
+}
+.viu-unlimited-dl {
+  &::before {
+    content: '\29';
+  }
+}
+.viu-tv {
+  &::before {
+    content: '\2a';
+  }
+}
+.viu-platform {
+  &::before {
+    content: '\2b';
+  }
+}
+.viu-block-adds {
+  &::before {
+    content: '\2c';
+  }
+}
+.viu-hd {
+  &::before {
+    content: '\2d';
+  }
+}
+.viu-devices {
+  &::before {
+    content: '\2e';
+  }
+}
+.viu-10 {
+  &::before {
+    content: '\2f';
+  }
+}
+.viu-10-1 {
+  &::before {
+    content: '\3a';
+  }
+}
+.viu-next {
+  &::before {
+    content: '\3b';
+  }
+}
+.viu-pause {
+  &::before {
+    content: '\3c';
+  }
+}
+.viu-settings {
+  &::before {
+    content: '\3d';
+  }
+}
+.viu-volume-up {
+  &::before {
+    content: '\3e';
+  }
+}
+.viu-volume-down {
+  &::before {
+    content: '\3f';
+  }
+}
+.viu-volume-down-1 {
+  &::before {
+    content: '\40';
+  }
+}
+.viu-exit-full-screen {
+  &::before {
+    content: '\5b';
+  }
+}
+.viu-volume-mute {
+  &::before {
+    content: '\5e';
+  }
+}
+.viu-volume-medium {
+  &::before {
+    content: '\5f';
+  }
+}
+.viu-volume-full {
+  &::before {
+    content: '\60';
+  }
+}
+.viu-play {
+  &::before {
+    content: '\7b';
+  }
+}
+.viu-ppause {
+  &::before {
+    content: '\7c';
+  }
+}
+.viu-exit-fullscreen {
+  &::before {
+    content: '\7d';
+  }
+}
+.viu-fullscreen {
+  &::before {
+    content: '\7e';
+  }
+}
+.viu-volume-low {
+  &::before {
+    content: '\5d';
+  }
+}
+.viu-4 {
+  &::before {
+    content: '\5c';
+  }
+}
+.viu-2 {
+  &::before {
+    content: '\e000';
+  }
+}
+.viu-episode-list {
+  &::before {
+    content: '\e001';
+  }
+}
+.viu-chevron-down {
+  &::before {
+    content: '\e002';
+  }
+}
+.viu-repeat-redo {
+  &::before {
+    content: '\e003';
+  }
+}
+
+/* -----------------------------------------------------------------------
+	*********************** Page settings ***********************
+  ------------------------------------------------------------------------ */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: $show;
+}
+body {
+  line-height: 1;
+  scroll-behavior: smooth;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+  background-color: $black;
+  user-select: none;
+  cursor: default;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  line-height: 1;
+  scroll-behavior: smooth;
+  height: 100vh;
+  background-color: $black;
+  color: #eee;
+  font-family: 'Biotif', 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  user-select: none;
+  cursor: default;
+  overflow: auto !important;
+  overflow-x: hidden !important;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapperForRtl{
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
