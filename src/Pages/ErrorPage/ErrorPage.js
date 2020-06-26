@@ -3,7 +3,6 @@ import './ErrorPage.scss';
 import Header from '../../Components/Header/Header';
 import ErrorContainer from '../../Components/ErrorContainer/ErrorContainer';
 import SliderHolder from '../../Components/SliderHolder/SliderHolder';
-import PlaylistData from '../../DB/viu.json';
 
 const ErrorPage = () => {
   const [isLoading, setLoading] = useState(true);
@@ -26,7 +25,7 @@ const ErrorPage = () => {
 
   return (
     <>
-      <Header header={PlaylistData.header} />
+      <Header header={apiResponse.header} />
       <ErrorContainer errorData={apiResponse.spotlight.error} />
       <SliderHolder playlist={apiResponse.videoList} />
     </>
