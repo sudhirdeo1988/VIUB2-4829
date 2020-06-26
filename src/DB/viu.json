@@ -30,6 +30,11 @@
                     "imageAlt": "Styled By Shaanmu",
                     "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165676230/d-1",
                     "redirectUrl": "https://www.viu.com/ott/in/en/hindi/playlist-styled_by_shaanmu-playlist-26220433"
+                },
+                {
+                    "imageAlt": "Gehraiyaan",
+                    "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1163711111/d-1",
+                    "redirectUrl": "https://www.viu.com/ott/in/en/hindi/playlist-gehraiyaan-playlist-24435137"
                 }
             ]
         },
@@ -55,16 +60,26 @@
                     "imageAlt": "Styled By Shaanmu",
                     "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165676230/d-1",
                     "redirectUrl": "https://www.viu.com/ott/in/en/hindi/playlist-styled_by_shaanmu-playlist-26220433"
+                },
+                {
+                    "imageAlt": "Gehraiyaan",
+                    "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1163711111/d-1",
+                    "redirectUrl": "https://www.viu.com/ott/in/en/hindi/playlist-gehraiyaan-playlist-24435137"
                 }
             ]
         },
         {
-            "title": "Test Now",
+            "title": "South Indian Action (Hindi Dubbed)",
             "videoThumbnails": [
                 {
-                    "imageAlt": "Styled By Shaanmu",
-                    "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165676230/d-1",
-                    "redirectUrl": "https://www.viu.com/ott/in/en/hindi/playlist-styled_by_shaanmu-playlist-26220433"
+                    "imageAlt": "The Super Khiladi 3",
+                    "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1139708814/d-1",
+                    "redirectUrl": "https://www.viu.com/ott/in/en/hindi/video-hindi-action-movies-the_super_khiladi_3-1139606035?containerId=playlist-23789616"
+                },
+                {
+                    "imageAlt": "Satyadev The Fearless Cop",
+                    "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165721361/d-1",
+                    "redirectUrl": "https://www.viu.com/ott/in/en/hindi/video-hindi-thriller-movies-satyadev_the_fearless_cop-1136701433?containerId=playlist-23789616"
                 }
             ]
         }
