@@ -3,6 +3,7 @@
 
 .c-Header {
     background-color: $dark-background-color;
+    box-sizing: border-box;
     display: block;
     position: fixed;
     margin-bottom: 0;
@@ -10,7 +11,7 @@
     left: 0;
     width: 100%;
     z-index: 90;
-    height: 40px;
+    height: 64px;
     padding: 12px 32px;
 
         .header__nav__s1{
@@ -38,5 +39,13 @@
                 text-align: center;
                 display: inline-block;
             }
+    }
+}
+
+.RTL{
+    .c-Header{
+        .header__nav__s1{
+            float: right;
+        }
     }
 }
