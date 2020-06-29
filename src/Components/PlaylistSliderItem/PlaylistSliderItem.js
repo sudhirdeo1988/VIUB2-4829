@@ -6,7 +6,7 @@ import { getCountryHostUrl } from '../../utils';
 const PlaylistSliderItem = (props) => {
   const { queryParams } = useQueryParam();
 
-  const host = getCountryHostUrl(queryParams.country || 'in');
+  const host = getCountryHostUrl(queryParams.country, queryParams.language);
 
   const { videoItem } = props;
 

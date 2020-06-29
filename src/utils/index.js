@@ -1,10 +1,38 @@
-export const getCountryHostUrl = (country) => {
+export const getCountryHostUrl = (country = 'in', lang = 'en') => {
+  const host = country === 'eg' ? 'https://watch.viu.com' : 'https://viu.com';
   switch (country) {
-    case 'in':
-      return 'https://viu.com/ott/in/en';
     case 'eg':
-      return 'https://watch.viu.com/ott/eg/en/all';
+      return `${host}/ott/${country}/${lang}/all`;
+    case 'ae':
+    case 'om':
+    case 'kw':
+    case 'bh':
+    case 'sa':
+    case 'qa':
+    case 'ye':
+      return `${host}/ott/${country}/${lang}/arab`;
+    case 'id':
+    case 'my':
+    case 'mm':
+    case 'iq':
+    case 'jo':
+    case 'za':
+    case 'ke':
+    case 'ng':
+    case 'ls':
+    case 'sz':
+    case 'zm':
+    case 'bw':
+    case 'na':
+    case 'mw':
+    case 'rw':
+    case 'ug':
+    case 'tz':
+    case 'gh':
+    case 'et':
+      return `${host}/ott/${country}/${lang}/all`;
+    case 'in':
     default:
-      return 'https://viu.com/ott/in/en';
+      return `${host}/ott/${country}/${lang}/hindi`;
   }
 };
