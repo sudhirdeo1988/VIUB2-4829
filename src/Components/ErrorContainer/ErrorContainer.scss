@@ -9,7 +9,7 @@
     width: 100%;
     min-height: 150px;
     text-align: center;
-    background-color: $title-color;
+    background-color: $black;
 
     .errorBoundry{
         display: flex;
@@ -41,8 +41,12 @@
     }
 }
 
-@media (max-width: 768px){
+.RTL{
     .c-errorContainer{
-        min-height: 250px;
+        .errorBoundry{
+            .error_msg{
+                font-family: $notokufi-font;
+            }
+        }
     }
 }

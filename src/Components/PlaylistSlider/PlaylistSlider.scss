@@ -85,3 +85,12 @@
     }
   } 
 }
+
+.RTL{
+  .c-sliderHeader{
+    .c-header__title {
+        float: right;
+        font-family: $notokufi-font;
+    }
+  } 
+}
