@@ -12,7 +12,10 @@ const PlaylistSliderItem = (props) => {
 
   return (
     <div className="c-contentslider__griditem">
-      <a href={`${host}/${videoItem.redirectUrl}`} className="thumbnailLink">
+      <a
+        href={`${host}/${videoItem.redirectUrl}?utm_source=errorPage`}
+        className="thumbnailLink"
+      >
         <img src={videoItem.imageUrl} alt={videoItem.imageAlt} />
         <div className="c-griditem-overlay">
           <div className="c-overlay__playbtn">
