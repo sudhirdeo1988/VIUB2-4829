@@ -27,7 +27,7 @@ const ErrorPage = () => {
   return (
     <>
       <Header header={apiResponse.header} />
-      <ErrorContainer errorData={apiResponse.spotlight.error} />
+      <ErrorContainer errorData={apiResponse.error} />
       <SliderHolder playlist={apiResponse.videoList} />
     </>
   );
