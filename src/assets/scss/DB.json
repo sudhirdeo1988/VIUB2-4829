@@ -1,0 +1,139 @@
+{
+    "error": {
+        "title": "Unauthorised",
+        "description": "Oh NO.. Bot Detected..",
+        "code": "404"
+    },
+    "videoList": [
+        {
+            "title": "Viu Originals",
+            "videoThumbnails": [
+                {
+                    "imageAlt": "Khoob seerat",
+                    "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165677185/d-1",
+                    "redirectUrl": "playlist-khoob_seerat-playlist-26235941"
+                },
+                {
+                    "imageAlt": "Bhool",
+                    "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165691922/d-1",
+                    "redirectUrl": "playlist-bhool-playlist-26248254"
+                },
+                {
+                    "imageAlt": "Styled By Shaanmu",
+                    "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165676230/d-1",
+                    "redirectUrl": "playlist-styled_by_shaanmu-playlist-26220433"
+                },
+                {
+                    "imageAlt": "Gehraiyaan",
+                    "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1163711111/d-1",
+                    "redirectUrl": "playlist-gehraiyaan-playlist-24435137"
+                },
+                {
+                    "imageAlt": "Kopitiam Double Shot",
+                    "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165651908/d-1",
+                    "redirectUrl": "playlist-kopitiam_double_shot-playlist-26149136"
+                },
+                {
+                    "imageAlt": "I Can You Can",
+                    "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1163990489/d-1",
+                    "redirectUrl": "playlist-i_can_you_can-playlist-25294809"
+                },
+                {
+                    "imageAlt": "Spotlight",
+                    "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1164113515/d-1",
+                    "redirectUrl": "playlist-spotlight-playlist-24435059"
+                },
+                {
+                    "imageAlt": "Thoda Sa Haq",
+                    "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165747398/d-1",
+                    "redirectUrl": "playlist-thoda_sa_haq-playlist-26269483"
+                }
+            ]
+        },
+        {
+            "title": "Popular Dramas",
+            "videoThumbnails": [
+                {
+                    "imageAlt": "Ae Dil Tu Bata",
+                    "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165601731/d-1",
+                    "redirectUrl": "playlist-ae_dil_tu_bata-playlist-25961996"
+                },
+                {
+                    "imageAlt": "Seerat",
+                    "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165596187/d-1",
+                    "redirectUrl": "playlist-seerat-playlist-25961171"
+                },
+                {
+                    "imageAlt": "Hob Al Taybeen",
+                    "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165601734/d-1",
+                    "redirectUrl": "playlist-hob_al_taybeen-playlist-25557467"
+                },
+                {
+                    "imageAlt": "Suno Chanda",
+                    "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165535479/d-1",
+                    "redirectUrl": "playlist-suno_chanda-playlist-25867858"
+                },
+                {
+                    "imageAlt": "Ana Sherry Dot Com",
+                    "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165529179/d-1",
+                    "redirectUrl": "playlist-ana_sherry_dot_com-playlist-25864397"
+                },
+                {
+                    "imageAlt": "Pyarey Afzal",
+                    "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165596151/d-1",
+                    "redirectUrl": "playlist-pyarey_afzal-playlist-25961162"
+                },
+                {
+                    "imageAlt": "Kuch Pyaar Ka Pagalpan",
+                    "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165596159/d-1",
+                    "redirectUrl": "playlist-kuch_pyaar_ka_pagalpan-playlist-25961166"
+                }
+            ]
+        },
+        {
+            "title": "World Viu Originals",
+            "videoThumbnails": [
+                {
+                    "imageAlt": "Devoted",
+                    "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165576452/d-1",
+                    "redirectUrl": "playlist-devoted-playlist-25923059"
+                },
+                {
+                    "imageAlt": "4Freaks 4Fam",
+                    "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165554964/d-1",
+                    "redirectUrl": "playlist-4freaks_4fam-playlist-25881379"
+                },
+                {
+                    "imageAlt": "Doon",
+                    "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165552596/d-1",
+                    "redirectUrl": "playlist-doon-playlist-25867169"
+                },
+                {
+                    "imageAlt": "Knock Out Girl",
+                    "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165286292/d-1",
+                    "redirectUrl": "playlist-knock_out_girl-playlist-25838564"
+                },
+                {
+                    "imageAlt": "The Bridge",
+                    "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165163560/d-1",
+                    "redirectUrl": "playlist-the_bridge-playlist-25811562"
+                },
+                {
+                    "imageAlt": "Salon",
+                    "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165044515/d-1",
+                    "redirectUrl": "playlist-salon-playlist-25748665"
+                },
+                {
+                    "imageAlt": "Switch",
+                    "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1163753848/d-1",
+                    "redirectUrl": "playlist-switch-playlist-24901580"
+                },
+                {
+                    "imageAlt": "Sunshine",
+                    "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1164642883/d-1",
+                    "redirectUrl": "playlist-sunshine-playlist-25546567"
+                }
+            ]
+        }
+    ]
+}

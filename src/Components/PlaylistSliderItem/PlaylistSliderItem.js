@@ -6,6 +6,7 @@ import { getCountryHostUrl } from '../../utils';
 const PlaylistSliderItem = (props) => {
   const { queryParams } = useQueryParam();
 
+  const allQueryParams = window.location.search;
   const host = getCountryHostUrl(queryParams.country, queryParams.language);
 
   const { videoItem } = props;
@@ -13,7 +14,7 @@ const PlaylistSliderItem = (props) => {
   return (
     <div className="c-contentslider__griditem">
       <a
-        href={`${host}/${videoItem.redirectUrl}?utm_source=errorPage`}
+        href={`${host}/${videoItem.redirectUrl}${allQueryParams}`}
         className="thumbnailLink"
       >
         <img src={videoItem.imageUrl} alt={videoItem.imageAlt} />
