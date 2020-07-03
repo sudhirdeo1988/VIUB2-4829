@@ -1,12 +1,18 @@
 {
   "error": {
     "title": "Unauthorised",
-    "description": "Oh NO.. Bot Detected..",
+    "description": {
+      "en": "Oh NO.. Bot Detected..",
+      "ar": "Oh NO.. Bot Detected.."
+    },
     "code": "404"
   },
   "videoList": [
     {
-      "title": "Viu Originals",
+      "title": {
+        "en": "Viu Originals",
+        "ar": "Viu إنتاجات"
+      },
       "videoThumbnails": [
         {
           "imageAlt": "Shahed Ayan",
@@ -81,12 +87,15 @@
       ]
     },
     {
-      "title": "Popular Dramas",
+      "title": {
+        "en": "Drama And Romance Movies",
+        "ar": "أفلام الدراما والرومانسية"
+      },
       "videoThumbnails": [
         {
-          "imageAlt": "Ae Dil Tu Bata",
-          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165601731/d-1",
-          "redirectUrl": "playlist-ae_dil_tu_bata-playlist-25961996"
+          "imageAlt": "El Kanz 1",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165632885/d-1",
+          "redirectUrl": "video-arabic-drama-movies-el_kanz_1-1165631925?containerId=playlist-26269455"
         },
         {
           "imageAlt": "Alexandria - New York",
@@ -114,14 +123,17 @@
           "redirectUrl": "playlist-pyarey_afzal-playlist-25961162"
         },
         {
-          "imageAlt": "Kuch Pyaar Ka Pagalpan",
-          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165596159/d-1",
-          "redirectUrl": "playlist-kuch_pyaar_ka_pagalpan-playlist-25961166"
+          "imageAlt": "Al Maa wa Al Khodra wa Al Wajh El Hassan",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165643081/d-1",
+          "redirectUrl": "video-arabic-drama-movies-al_maa_wa_al_khodra_wa_al_wajh_el_hassan-1165641028?containerId=playlist-26269455"
         }
       ]
     },
     {
-      "title": "World Viu Originals",
+      "title": {
+        "en": "Viu International Originals",
+        "ar": "إنتاجات Viu العالمية  مدبلجة و مترجمة"
+      },
       "videoThumbnails": [
         {
           "imageAlt": "Al Thanb Al Kabeer",

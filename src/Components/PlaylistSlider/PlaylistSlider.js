@@ -1,10 +1,12 @@
 import React from 'react';
+import { useQueryParam } from 'use-query-param';
 import './PlaylistSlider.scss';
 import '../../assets/scss/slick.css';
 import Slider from 'react-slick';
 import PlaylistSliderItem from '../PlaylistSliderItem/PlaylistSliderItem';
 
 const PlaylistSlider = (props) => {
+  const { queryParams } = useQueryParam();
   const { playlistData } = props;
   const settings = {
     dots: false,
@@ -26,16 +28,16 @@ const PlaylistSlider = (props) => {
         settings: {
           slidesToScroll: 4,
           slidesToShow: 4,
-          draggable: true,
-        },
+          draggable: true
+        }
       },
       {
         breakpoint: 768,
         settings: {
           slidesToScroll: 4,
           slidesToShow: 4,
-          draggable: true,
-        },
+          draggable: true
+        }
       },
       // 769 to 1024 resolution
       {
@@ -43,16 +45,16 @@ const PlaylistSlider = (props) => {
         settings: {
           slidesToScroll: 5,
           slidesToShow: 5,
-          draggable: true,
-        },
+          draggable: true
+        }
       },
       {
         breakpoint: 1024,
         settings: {
           slidesToScroll: 5,
           slidesToShow: 5,
-          draggable: true,
-        },
+          draggable: true
+        }
       },
       // 1025 to 1979 resolution
       {
@@ -60,33 +62,33 @@ const PlaylistSlider = (props) => {
         settings: {
           slidesToScroll: 7,
           slidesToShow: 7,
-          draggable: true,
-        },
+          draggable: true
+        }
       },
       {
         breakpoint: 1919,
         settings: {
           slidesToScroll: 7,
           slidesToShow: 7,
-          draggable: true,
-        },
+          draggable: true
+        }
       },
       // 1920 to 10000 resolution
       {
         breakpoint: 1920,
         settings: {
           slidesToScroll: 9,
-          slidesToShow: 9,
-        },
+          slidesToShow: 9
+        }
       },
       {
         breakpoint: 10000,
         settings: {
           slidesToScroll: 9,
-          slidesToShow: 9,
-        },
-      },
-    ],
+          slidesToShow: 9
+        }
+      }
+    ]
   };
   return (
     <>
@@ -94,12 +96,16 @@ const PlaylistSlider = (props) => {
         return (
           playlistItem.videoThumbnails.length > 0 && (
             <div key={index}>
-              <div className='c-sliderHeader'>
-                <div className='c-header__section'>
-                  <h2 className='c-header__title'>{playlistItem.title}</h2>
+              <div className="c-sliderHeader">
+                <div className="c-header__section">
+                  <h2 className="c-header__title">
+                    {queryParams && queryParams.lang === 'ar'
+                      ? `${playlistItem.title.ar}`
+                      : `${playlistItem.title.en}`}
+                  </h2>
                 </div>
               </div>
-              <div className='c-contentslider'>
+              <div className="c-contentslider">
                 <Slider {...settings}>
                   {playlistItem.videoThumbnails.map((item, index) => (
                     <PlaylistSliderItem videoItem={item} key={index} />
