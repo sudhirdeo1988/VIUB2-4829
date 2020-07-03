@@ -4,6 +4,7 @@ import Header from '../../Components/Header/Header';
 import ErrorContainer from '../../Components/ErrorContainer/ErrorContainer';
 import SliderHolder from '../../Components/SliderHolder/SliderHolder';
 import Loader from '../../Components/Loader/Loader';
+// import data from '../../assets/scss/DB.json';
 
 const ErrorPage = () => {
   const [isLoading, setLoading] = useState(true);
