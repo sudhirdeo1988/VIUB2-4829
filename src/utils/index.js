@@ -1,5 +1,6 @@
 export const getCountryHostUrl = (country = 'in', language = 'en') => {
-  const host = country === 'eg' ? 'https://watch.viu.com' : 'https://viu.com';
+  const host =
+    country === 'eg' ? 'https://watch.viu.com' : 'https://www.viu.com';
   switch (country) {
     case 'eg':
       return `${host}/ott/${country}/${language}/all`;
