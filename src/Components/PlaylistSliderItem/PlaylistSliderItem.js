@@ -1,13 +1,14 @@
 import React from 'react';
-import { useQueryParam } from 'use-query-param';
+// import { useQueryParam } from 'use-query-param';
 import './PlaylistSliderItem.scss';
 import { getCountryHostUrl } from '../../utils';
 
 const PlaylistSliderItem = (props) => {
-  const { queryParams } = useQueryParam();
+  // const { queryParams } = useQueryParam();
   const { videoItem } = props;
   const allQueryParams = window.location.search;
-  const host = getCountryHostUrl(queryParams.country, queryParams.language);
+  const [, , country, language] = window.location.pathname.split('/');
+  const host = getCountryHostUrl(country, language);
 
   return (
     <div className="c-contentslider__griditem">

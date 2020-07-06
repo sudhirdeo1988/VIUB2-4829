@@ -1,25 +1,20 @@
 import React, { useEffect, useState } from 'react';
-import { useQueryParam } from 'use-query-param';
 import './ErrorPage.scss';
 import Header from '../../Components/Header/Header';
 import ErrorContainer from '../../Components/ErrorContainer/ErrorContainer';
 import SliderHolder from '../../Components/SliderHolder/SliderHolder';
 import Loader from '../../Components/Loader/Loader';
-// import data from '../../assets/scss/DB.json';
 
 const ErrorPage = () => {
-  const { queryParams } = useQueryParam();
   const [isLoading, setLoading] = useState(true);
   const [apiResponse, setApiResponse] = useState({});
-  const isRtl = queryParams && queryParams.lang;
 
-  if (isRtl === 'ar') {
-    const rtlwrap = document.querySelector('.wrapperForRtl');
-    rtlwrap.classList.add('RTL');
-  }
+  const [, , , language] = window.location.pathname.split('/') || 'en';
 
   const getData = async () => {
-    const res = await fetch('https://viu-server-json.herokuapp.com/response');
+    const res = await fetch(
+      'https://s3-ap-southeast-1.amazonaws.com/viuprod.vuclip.com/page/DB.json'
+    );
     const data = await res.json();
     setApiResponse(data);
     setLoading(false);
@@ -29,6 +24,11 @@ const ErrorPage = () => {
     getData();
   }, []);
 
+  if (language === 'ar') {
+    const rtlwrap = document.querySelector('.wrapperForRtl');
+    rtlwrap.classList.add('RTL');
+  }
+
   if (isLoading) {
     return <Loader />;
   }
@@ -37,7 +37,11 @@ const ErrorPage = () => {
     <>
       <Header header={apiResponse.header} />
       <ErrorContainer errorData={apiResponse.error} />
-      <SliderHolder playlist={apiResponse.videoList} />
+      <SliderHolder
+        playlist={
+          language === 'ar' ? apiResponse.videoList_ar : apiResponse.videoList
+        }
+      />
     </>
   );
 };

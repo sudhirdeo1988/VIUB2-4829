@@ -2,16 +2,16 @@
   "error": {
     "title": "Unauthorised",
     "description": {
-      "en": "Oh NO.. Bot Detected..",
-      "ar": "Oh NO.. Bot Detected.."
+      "en": "Oops, something went wrong! But here are some titles you can enjoy...!",
+      "ar": "للأسف، حدث خطأ ما! ولكن هذه قائمة من المحتوى الذي يمكنك الإستمتاع به..."
     },
     "code": "404"
   },
   "videoList": [
     {
       "title": {
-        "en": "Viu Originals",
-        "ar": "Viu إنتاجات"
+        "en": "Viu Arabic Originals",
+        "ar": "إنتاجات Viu العربية"
       },
       "videoThumbnails": [
         {
@@ -30,9 +30,9 @@
           "redirectUrl": "playlist-khoob_seerat-playlist-26235941"
         },
         {
-          "imageAlt": "Bhool",
-          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165691922/d-1",
-          "redirectUrl": "playlist-bhool-playlist-26248254"
+          "imageAlt": "We Neheb Tani Leh",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165746382/d-1",
+          "redirectUrl": "playlist-we_neheb_tani_leh-playlist-26269358"
         },
         {
           "imageAlt": "Al khawabi",
@@ -40,29 +40,14 @@
           "redirectUrl": "playlist-al_khawabi-playlist-26269291"
         },
         {
-          "imageAlt": "The Bridge 2",
-          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165757355/d-1",
-          "redirectUrl": "playlist-the_bridge_2-playlist-26269516"
-        },
-        {
-          "imageAlt": "Gehraiyaan",
-          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1163711111/d-1",
-          "redirectUrl": "playlist-gehraiyaan-playlist-24435137"
+          "imageAlt": "Reyah Al Sumoom",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165752769/d-1",
+          "redirectUrl": "playlist-reyah_al_sumoom-playlist-26269292"
         },
         {
           "imageAlt": "Kopitiam Double Shot",
           "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165651908/d-1",
           "redirectUrl": "playlist-kopitiam_double_shot-playlist-26149136"
-        },
-        {
-          "imageAlt": "I Can You Can",
-          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1163990489/d-1",
-          "redirectUrl": "playlist-i_can_you_can-playlist-25294809"
-        },
-        {
-          "imageAlt": "Spotlight",
-          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1164113515/d-1",
-          "redirectUrl": "playlist-spotlight-playlist-24435059"
         },
         {
           "imageAlt": "Thoda Sa Haq",
@@ -75,27 +60,22 @@
           "redirectUrl": "playlist-al_december-playlist-26269317"
         },
         {
-          "imageAlt": "Pelli Gola",
-          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1164221310/d-1",
-          "redirectUrl": "playlist-pelli_gola-playlist-24435088"
-        },
-        {
-          "imageAlt": "Social",
-          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165019486/d-1",
-          "redirectUrl": "playlist-social-playlist-24926470"
+          "imageAlt": "Doon",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165529423/d-1",
+          "redirectUrl": "playlist-doon-playlist-25865093"
         }
       ]
     },
     {
       "title": {
-        "en": "Drama And Romance Movies",
+        "en": "Arabic Movies",
         "ar": "أفلام الدراما والرومانسية"
       },
       "videoThumbnails": [
         {
-          "imageAlt": "El Kanz 1",
-          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165632885/d-1",
-          "redirectUrl": "video-arabic-drama-movies-el_kanz_1-1165631925?containerId=playlist-26269455"
+          "imageAlt": "El Harb El Alameya El Talta",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165673802/d-1",
+          "redirectUrl": "video-arabic-comedy-movies-el_harb_el_alameya_el_talta-1165655230?containerId=playlist-24630254"
         },
         {
           "imageAlt": "Alexandria - New York",
@@ -103,57 +83,100 @@
           "redirectUrl": "video-arabic-drama-movies-alexandria_new_york-1165656654?containerId=playlist-26269455"
         },
         {
-          "imageAlt": "Hob Al Taybeen",
-          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165601734/d-1",
-          "redirectUrl": "playlist-hob_al_taybeen-playlist-25557467"
-        },
-        {
-          "imageAlt": "Loabat Al Samt - S1",
-          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165695967/d-1",
-          "redirectUrl": "playlist-loabat_al_samt_s1-playlist-26252933"
-        },
-        {
-          "imageAlt": "Ana Sherry Dot Com",
-          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165529179/d-1",
-          "redirectUrl": "playlist-ana_sherry_dot_com-playlist-25864397"
-        },
-        {
-          "imageAlt": "Pyarey Afzal",
-          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165596151/d-1",
-          "redirectUrl": "playlist-pyarey_afzal-playlist-25961162"
+          "imageAlt": "Gawaza Miri",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165697937/d-1",
+          "redirectUrl": "video-arabic-comedy-movies-gawaza_miri-1165655340?containerId=playlist-24630254"
         },
         {
           "imageAlt": "Al Maa wa Al Khodra wa Al Wajh El Hassan",
           "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165643081/d-1",
           "redirectUrl": "video-arabic-drama-movies-al_maa_wa_al_khodra_wa_al_wajh_el_hassan-1165641028?containerId=playlist-26269455"
+        },
+        {
+          "imageAlt": "Al Jazeera 2",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165695939/d-1",
+          "redirectUrl": "video-arabic-action-movies-al_jazeera_2-1165655561?containerId=876_0_26_2_1.ae"
+        },
+        {
+          "imageAlt": "Al Feel Al Azrak",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165651643/d-1",
+          "redirectUrl": "video-arabic-thriller-movies-al_feel_al_azrak-1165639367?containerId=876_0_26_2_1.ae"
+        },
+        {
+          "imageAlt": "Raghda Motawahesha",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165606735/d-1",
+          "redirectUrl": "video-arabic-comedy-movies-raghda_motawahesha-1165581174?containerId=876_0_26_2_1.ae"
         }
       ]
     },
     {
       "title": {
-        "en": "Viu International Originals",
-        "ar": "إنتاجات Viu العالمية  مدبلجة و مترجمة"
+        "en": "Most Watched/ Popular Arabic Series",
+        "ar": "الأفلام و المسلسلات الأكثر مشاهدة"
       },
       "videoThumbnails": [
         {
-          "imageAlt": "Al Thanb Al Kabeer",
-          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165763100/d-1",
-          "redirectUrl": "playlist-al_thanb_al_kabeer-playlist-26269640"
+          "imageAlt": "Azraa",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165753762/d-1",
+          "redirectUrl": "playlist-azraa-playlist-26269494"
         },
         {
-          "imageAlt": "Devoted",
-          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165576452/d-1",
-          "redirectUrl": "playlist-devoted-playlist-25923059"
+          "imageAlt": "Izwati",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165579733/d-1",
+          "redirectUrl": "playlist-izwati-playlist-25931722"
         },
         {
-          "imageAlt": "4Freaks 4Fam",
-          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165554964/d-1",
-          "redirectUrl": "playlist-4freaks_4fam-playlist-25881379"
+          "imageAlt": "Fi Thakaret Al Dhil",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165746409/d-1",
+          "redirectUrl": "playlist-fi_thakaret_al_dhil-playlist-26269318"
         },
         {
-          "imageAlt": "Pakeeza Phupo",
-          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165755711/d-1",
-          "redirectUrl": "playlist-pakeeza_phupo-playlist-26269545"
+          "imageAlt": "Maa Hessa Qalam",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165585211/d-1",
+          "redirectUrl": "playlist-maa_hessa_qalam-playlist-25943784"
+        },
+        {
+          "imageAlt": "Khamas Banat",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165640462/d-1",
+          "redirectUrl": "playlist-khamas_banat-playlist-26108748"
+        },
+        {
+          "imageAlt": "Dofaat Al Qahera",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165625174/d-1",
+          "redirectUrl": "playlist-dofaat_al_qahera-playlist-26046334"
+        },
+        {
+          "imageAlt": "Sadikaty Al Azizat",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165636863/d-1",
+          "redirectUrl": "playlist-sadikaty_al_azizat-playlist-26090610"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Korean Series",
+        "ar": "مسلسلات كورية"
+      },
+      "videoThumbnails": [
+        {
+          "imageAlt": "Boys over Flowers",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165659250/d-1",
+          "redirectUrl": "playlist-boys_over_flowers-playlist-25176477"
+        },
+        {
+          "imageAlt": "The Bride of Habaek",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165643836/d-1",
+          "redirectUrl": "playlist-the_bride_of_habaek-playlist-26024365"
+        },
+        {
+          "imageAlt": "Black",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165763295/d-1",
+          "redirectUrl": "playlist-black-playlist-26269665"
+        },
+        {
+          "imageAlt": "Chicago Typewriter",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165763283/d-1",
+          "redirectUrl": "playlist-chicago_typewriter-playlist-26269664"
         },
         {
           "imageAlt": "Knock Out Girl",
@@ -161,34 +184,369 @@
           "redirectUrl": "playlist-knock_out_girl-playlist-25838564"
         },
         {
-          "imageAlt": "The Bridge 2",
-          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165757355/d-1",
-          "redirectUrl": "playlist-the_bridge_2-playlist-26269516"
+          "imageAlt": "My Shy Boss",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165763274/d-1",
+          "redirectUrl": "playlist-my_shy_boss-playlist-26269663"
         },
         {
-          "imageAlt": "Salon",
-          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165044515/d-1",
-          "redirectUrl": "playlist-salon-playlist-25748665"
+          "imageAlt": "Touch Your Heart",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165763266/d-1",
+          "redirectUrl": "playlist-touch_your_heart-playlist-26269662"
         },
         {
-          "imageAlt": "Switch",
-          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1163753848/d-1",
-          "redirectUrl": "playlist-switch-playlist-24901580"
+          "imageAlt": "Partners for Justice 2",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165763248/d-1",
+          "redirectUrl": "playlist-partners_for_justice_2-playlist-26269659"
         },
         {
-          "imageAlt": "Sunshine",
-          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1164642883/d-1",
-          "redirectUrl": "playlist-sunshine-playlist-25546567"
+          "imageAlt": "Special Labor Inspector Jo Jang Poong",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165762756/d-1",
+          "redirectUrl": "playlist-special_labor_inspector_jo_jang_poong-playlist-26269657"
         },
         {
-          "imageAlt": "Wahid : Wahid",
-          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165601733/d-1",
-          "redirectUrl": "playlist-wahid_wahid-playlist-25597133"
+          "imageAlt": "Mother",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165762750/d-1",
+          "redirectUrl": "playlist-mother-playlist-26269656"
         },
         {
-          "imageAlt": "KZL",
-          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165352220/d-1",
-          "redirectUrl": "playlist-kzl-playlist-25806500"
+          "imageAlt": "Plus Nine Boys",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165762746/d-1",
+          "redirectUrl": "playlist-plus_nine_boys-playlist-26269655"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Viu Pakistani Originals",
+        "ar": "دراما باكستانية بالعربي"
+      },
+      "videoThumbnails": [
+        {
+          "imageAlt": "Al Thanb Al Kabeer",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165763484/d-1",
+          "redirectUrl": "playlist-al_thanb_al_kabeer-playlist-26269640"
+        },
+        {
+          "imageAlt": "Ghalati",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165753877/d-1",
+          "redirectUrl": "playlist-ghalati-playlist-26269495"
+        },
+        {
+          "imageAlt": "Dima",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165753734/d-1",
+          "redirectUrl": "playlist-dima-playlist-26269517"
+        },
+        {
+          "imageAlt": "Thoda Sa Haq",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165755708/d-1",
+          "redirectUrl": "playlist-thoda_sa_haq-playlist-26269544"
+        },
+        {
+          "imageAlt": "Pakeeza Phupo",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165755711/d-1",
+          "redirectUrl": "playlist-pakeeza_phupo-playlist-26269545"
+        },
+        {
+          "imageAlt": "Al Hob Al Daea",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165676053/d-1",
+          "redirectUrl": "playlist-al_hob_al_daea-playlist-26223252"
+        },
+        {
+          "imageAlt": "Bharosa Pyar Tera",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165707757/d-1",
+          "redirectUrl": "playlist-bharosa_pyar_tera-playlist-26262802"
+        },
+        {
+          "imageAlt": "Khoob Seerat",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165696002/d-1",
+          "redirectUrl": "playlist-khoob_seerat-playlist-26253037"
+        },
+        {
+          "imageAlt": "Muqaddar",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165696000/d-1",
+          "redirectUrl": "playlist-muqaddar-playlist-26253032"
+        },
+        {
+          "imageAlt": "Deewangi",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165763899/d-1",
+          "redirectUrl": "playlist-deewangi-playlist-26223202"
+        },
+        {
+          "imageAlt": "Sammi",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165576561/d-1",
+          "redirectUrl": "playlist-sammi-playlist-25923547"
+        }
+      ]
+    }
+  ],
+  "videoList_ar": [
+    {
+      "title": {
+        "en": "Viu Arabic Originals",
+        "ar": "إنتاجات Viu العربية"
+      },
+      "videoThumbnails": [
+        {
+          "imageAlt": "Shahed Ayan",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165746386/d-1",
+          "redirectUrl": "playlist-shahed_ayan-playlist-26269285"
+        },
+        {
+          "imageAlt": "Sultanet Al Moez",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165746389/d-1",
+          "redirectUrl": "playlist-sultanet_al_moez-playlist-26269287"
+        },
+        {
+          "imageAlt": "Khoob seerat",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165677185/d-1",
+          "redirectUrl": "playlist-khoob_seerat-playlist-26235941"
+        },
+        {
+          "imageAlt": "We Neheb Tani Leh",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165746382/d-1",
+          "redirectUrl": "playlist-we_neheb_tani_leh-playlist-26269358"
+        },
+        {
+          "imageAlt": "Al khawabi",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165752774/d-1",
+          "redirectUrl": "playlist-al_khawabi-playlist-26269291"
+        },
+        {
+          "imageAlt": "Reyah Al Sumoom",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165752769/d-1",
+          "redirectUrl": "playlist-reyah_al_sumoom-playlist-26269292"
+        },
+        {
+          "imageAlt": "Kopitiam Double Shot",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165651908/d-1",
+          "redirectUrl": "playlist-kopitiam_double_shot-playlist-26149136"
+        },
+        {
+          "imageAlt": "Thoda Sa Haq",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165747398/d-1",
+          "redirectUrl": "playlist-thoda_sa_haq-playlist-26269483"
+        },
+        {
+          "imageAlt": "Al December",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165746433/d-1",
+          "redirectUrl": "playlist-al_december-playlist-26269317"
+        },
+        {
+          "imageAlt": "Doon",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165529423/d-1",
+          "redirectUrl": "playlist-doon-playlist-25865093"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Arabic Movies",
+        "ar": "أفلام الدراما والرومانسية"
+      },
+      "videoThumbnails": [
+        {
+          "imageAlt": "El Harb El Alameya El Talta",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165673802/d-1",
+          "redirectUrl": "video-arabic-comedy-movies-el_harb_el_alameya_el_talta-1165655230?containerId=playlist-24630254"
+        },
+        {
+          "imageAlt": "Alexandria - New York",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165763174/d-1",
+          "redirectUrl": "video-arabic-drama-movies-alexandria_new_york-1165656654?containerId=playlist-26269455"
+        },
+        {
+          "imageAlt": "Gawaza Miri",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165697937/d-1",
+          "redirectUrl": "video-arabic-comedy-movies-gawaza_miri-1165655340?containerId=playlist-24630254"
+        },
+        {
+          "imageAlt": "Al Maa wa Al Khodra wa Al Wajh El Hassan",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165643081/d-1",
+          "redirectUrl": "video-arabic-drama-movies-al_maa_wa_al_khodra_wa_al_wajh_el_hassan-1165641028?containerId=playlist-26269455"
+        },
+        {
+          "imageAlt": "Al Jazeera 2",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165695939/d-1",
+          "redirectUrl": "video-arabic-action-movies-al_jazeera_2-1165655561?containerId=876_0_26_2_1.ae"
+        },
+        {
+          "imageAlt": "Al Feel Al Azrak",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165651643/d-1",
+          "redirectUrl": "video-arabic-thriller-movies-al_feel_al_azrak-1165639367?containerId=876_0_26_2_1.ae"
+        },
+        {
+          "imageAlt": "Raghda Motawahesha",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165606735/d-1",
+          "redirectUrl": "video-arabic-comedy-movies-raghda_motawahesha-1165581174?containerId=876_0_26_2_1.ae"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Most Watched/ Popular Arabic Series",
+        "ar": "الأفلام و المسلسلات الأكثر مشاهدة"
+      },
+      "videoThumbnails": [
+        {
+          "imageAlt": "Azraa",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165753762/d-1",
+          "redirectUrl": "playlist-azraa-playlist-26269494"
+        },
+        {
+          "imageAlt": "Izwati",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165579733/d-1",
+          "redirectUrl": "playlist-izwati-playlist-25931722"
+        },
+        {
+          "imageAlt": "Fi Thakaret Al Dhil",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165746409/d-1",
+          "redirectUrl": "playlist-fi_thakaret_al_dhil-playlist-26269318"
+        },
+        {
+          "imageAlt": "Maa Hessa Qalam",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165585211/d-1",
+          "redirectUrl": "playlist-maa_hessa_qalam-playlist-25943784"
+        },
+        {
+          "imageAlt": "Khamas Banat",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165640462/d-1",
+          "redirectUrl": "playlist-khamas_banat-playlist-26108748"
+        },
+        {
+          "imageAlt": "Dofaat Al Qahera",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165625174/d-1",
+          "redirectUrl": "playlist-dofaat_al_qahera-playlist-26046334"
+        },
+        {
+          "imageAlt": "Sadikaty Al Azizat",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165636863/d-1",
+          "redirectUrl": "playlist-sadikaty_al_azizat-playlist-26090610"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Korean Series",
+        "ar": "مسلسلات كورية"
+      },
+      "videoThumbnails": [
+        {
+          "imageAlt": "Boys over Flowers",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165659250/d-1",
+          "redirectUrl": "playlist-boys_over_flowers-playlist-25176477"
+        },
+        {
+          "imageAlt": "The Bride of Habaek",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165643836/d-1",
+          "redirectUrl": "playlist-the_bride_of_habaek-playlist-26024365"
+        },
+        {
+          "imageAlt": "Black",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165763295/d-1",
+          "redirectUrl": "playlist-black-playlist-26269665"
+        },
+        {
+          "imageAlt": "Chicago Typewriter",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165763283/d-1",
+          "redirectUrl": "playlist-chicago_typewriter-playlist-26269664"
+        },
+        {
+          "imageAlt": "Knock Out Girl",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165286292/d-1",
+          "redirectUrl": "playlist-knock_out_girl-playlist-25838564"
+        },
+        {
+          "imageAlt": "My Shy Boss",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165763274/d-1",
+          "redirectUrl": "playlist-my_shy_boss-playlist-26269663"
+        },
+        {
+          "imageAlt": "Touch Your Heart",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165763266/d-1",
+          "redirectUrl": "playlist-touch_your_heart-playlist-26269662"
+        },
+        {
+          "imageAlt": "Partners for Justice 2",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165763248/d-1",
+          "redirectUrl": "playlist-partners_for_justice_2-playlist-26269659"
+        },
+        {
+          "imageAlt": "Special Labor Inspector Jo Jang Poong",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165762756/d-1",
+          "redirectUrl": "playlist-special_labor_inspector_jo_jang_poong-playlist-26269657"
+        },
+        {
+          "imageAlt": "Mother",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165762750/d-1",
+          "redirectUrl": "playlist-mother-playlist-26269656"
+        },
+        {
+          "imageAlt": "Plus Nine Boys",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165762746/d-1",
+          "redirectUrl": "playlist-plus_nine_boys-playlist-26269655"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Viu Pakistani Originals",
+        "ar": "دراما باكستانية بالعربي"
+      },
+      "videoThumbnails": [
+        {
+          "imageAlt": "Al Thanb Al Kabeer",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165763484/d-1",
+          "redirectUrl": "playlist-al_thanb_al_kabeer-playlist-26269640"
+        },
+        {
+          "imageAlt": "Ghalati",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165753877/d-1",
+          "redirectUrl": "playlist-ghalati-playlist-26269495"
+        },
+        {
+          "imageAlt": "Dima",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165753734/d-1",
+          "redirectUrl": "playlist-dima-playlist-26269517"
+        },
+        {
+          "imageAlt": "Thoda Sa Haq",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165755708/d-1",
+          "redirectUrl": "playlist-thoda_sa_haq-playlist-26269544"
+        },
+        {
+          "imageAlt": "Pakeeza Phupo",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165755711/d-1",
+          "redirectUrl": "playlist-pakeeza_phupo-playlist-26269545"
+        },
+        {
+          "imageAlt": "Al Hob Al Daea",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165676053/d-1",
+          "redirectUrl": "playlist-al_hob_al_daea-playlist-26223252"
+        },
+        {
+          "imageAlt": "Bharosa Pyar Tera",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165707757/d-1",
+          "redirectUrl": "playlist-bharosa_pyar_tera-playlist-26262802"
+        },
+        {
+          "imageAlt": "Khoob Seerat",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165696002/d-1",
+          "redirectUrl": "playlist-khoob_seerat-playlist-26253037"
+        },
+        {
+          "imageAlt": "Muqaddar",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165696000/d-1",
+          "redirectUrl": "playlist-muqaddar-playlist-26253032"
+        },
+        {
+          "imageAlt": "Deewangi",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165763899/d-1",
+          "redirectUrl": "playlist-deewangi-playlist-26223202"
+        },
+        {
+          "imageAlt": "Sammi",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165576561/d-1",
+          "redirectUrl": "playlist-sammi-playlist-25923547"
         }
       ]
     }

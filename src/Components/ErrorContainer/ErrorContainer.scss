@@ -1,52 +1,63 @@
 @import '../../assets/scss/variables';
 @import '../../assets/scss/mixins';
 
-.c-errorContainer{
-    box-sizing: border-box;
-    display: block;
-    position: relative;
-    margin: 64px 0 30px 0;
-    width: 100%;
-    min-height: 150px;
-    text-align: center;
-    background-color: $black;
+.c-errorContainer {
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  margin: 64px 0 30px 0;
+  width: 100%;
+  min-height: 150px;
+  text-align: center;
+  background-color: $black;
 
-    .errorBoundry{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 50px 20px;
-        max-width: 1264px;
-        margin: 0 auto;
-    
+  .errorBoundry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    max-width: 1264px;
+    margin: 0 auto;
 
-        .error_img{
-            background-color: transparent;
-            display: block;
-            margin: 0 auto 30px;
-            padding: 5px;
-                img{
-                    height: 70px;
-                    width: 70px;
-                }
-        }
-        .error_msg{
-            display: block;
-            color: $white;
-            font-size: 30px;
-            line-height: 40px;
-            font-weight: 700;
-        }
+    .error_img {
+      background-color: transparent;
+      display: block;
+      margin: 0 auto 30px;
+      padding: 5px;
+      img {
+        height: 70px;
+        width: 70px;
+      }
     }
+    .error_msg {
+      display: block;
+      color: $white;
+      font-size: 30px;
+      line-height: 40px;
+      font-weight: 700;
+    }
+  }
 }
 
-.RTL{
-    .c-errorContainer{
-        .errorBoundry{
-            .error_msg{
-                font-family: $notokufi-font;
-            }
-        }
+.RTL {
+  .c-errorContainer {
+    .errorBoundry {
+      .error_msg {
+        font-family: $notokufi-font;
+      }
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .c-errorContainer {
+    .errorBoundry {
+      padding: 20px;
+      .error_msg {
+        font-size: 20px;
+        line-height: 30px;
+      }
+    }
+  }
 }
