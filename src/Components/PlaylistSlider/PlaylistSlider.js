@@ -1,4 +1,5 @@
 import React from 'react';
+import { useQueryParam } from 'use-query-param';
 import './PlaylistSlider.scss';
 import '../../assets/scss/slick.css';
 import Slider from 'react-slick';
@@ -6,7 +7,8 @@ import PlaylistSliderItem from '../PlaylistSliderItem/PlaylistSliderItem';
 
 const PlaylistSlider = (props) => {
   const { playlistData } = props;
-  const [, , , language] = window.location.pathname.split('/') || 'en';
+  const { queryParams } = useQueryParam();
+  // const [, , , language] = window.location.pathname.split('/') || 'en';
   const settings = {
     dots: false,
     infinite: false,
@@ -98,7 +100,7 @@ const PlaylistSlider = (props) => {
               <div className="c-sliderHeader">
                 <div className="c-header__section">
                   <h2 className="c-header__title">
-                    {language === 'ar'
+                    {queryParams && queryParams.language === 'ar'
                       ? `${playlistItem.title.ar}`
                       : `${playlistItem.title.en}`}
                   </h2>

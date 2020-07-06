@@ -1,11 +1,14 @@
 import React from 'react';
+import { useQueryParam } from 'use-query-param';
 import './Header.scss';
 import { getCountryHostUrl } from '../../utils';
 
 const Header = () => {
   const allQueryParams = window.location.search;
-  const [, , country, language] = window.location.pathname.split('/');
-  const host = getCountryHostUrl(country, language);
+  const { queryParams } = useQueryParam();
+  const host = getCountryHostUrl(queryParams.country, queryParams.language);
+  // const [, , country, language] = window.location.pathname.split('/');
+  // const host = getCountryHostUrl(country, language);
   return (
     <div className="c-Header">
       <div className="header__nav__s1">
