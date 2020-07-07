@@ -15,6 +15,26 @@
       },
       "videoThumbnails": [
         {
+          "imageAlt": "Reyah Al Sumoom",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165752769/d-1",
+          "redirectUrl": "playlist-reyah_al_sumoom-playlist-26269292"
+        },
+        {
+          "imageAlt": "Al khawabi",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165752774/d-1",
+          "redirectUrl": "playlist-al_khawabi-playlist-26269291"
+        },
+        {
+          "imageAlt": "Al Beit El Kebir - S3",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165672014/d-1",
+          "redirectUrl": "playlist-al_beit_el_kebir_s3-playlist-26207046"
+        },
+        {
+          "imageAlt": "Doon",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165529423/d-1",
+          "redirectUrl": "playlist-doon-playlist-25865093"
+        },
+        {
           "imageAlt": "Shahed Ayan",
           "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165746386/d-1",
           "redirectUrl": "playlist-shahed_ayan-playlist-26269285"
@@ -25,24 +45,9 @@
           "redirectUrl": "playlist-sultanet_al_moez-playlist-26269287"
         },
         {
-          "imageAlt": "Khoob seerat",
-          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165677185/d-1",
-          "redirectUrl": "playlist-khoob_seerat-playlist-26235941"
-        },
-        {
           "imageAlt": "We Neheb Tani Leh",
           "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165746382/d-1",
           "redirectUrl": "playlist-we_neheb_tani_leh-playlist-26269358"
-        },
-        {
-          "imageAlt": "Al khawabi",
-          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165752774/d-1",
-          "redirectUrl": "playlist-al_khawabi-playlist-26269291"
-        },
-        {
-          "imageAlt": "Reyah Al Sumoom",
-          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165752769/d-1",
-          "redirectUrl": "playlist-reyah_al_sumoom-playlist-26269292"
         },
         {
           "imageAlt": "Kopitiam Double Shot",
@@ -58,18 +63,13 @@
           "imageAlt": "Al December",
           "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165746433/d-1",
           "redirectUrl": "playlist-al_december-playlist-26269317"
-        },
-        {
-          "imageAlt": "Doon",
-          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165529423/d-1",
-          "redirectUrl": "playlist-doon-playlist-25865093"
         }
       ]
     },
     {
       "title": {
         "en": "Arabic Movies",
-        "ar": "أفلام الدراما والرومانسية"
+        "ar": "أفلام عربية"
       },
       "videoThumbnails": [
         {
@@ -111,10 +111,30 @@
     },
     {
       "title": {
-        "en": "Most Watched/ Popular Arabic Series",
-        "ar": "الأفلام و المسلسلات الأكثر مشاهدة"
+        "en": "Series U Can't Miss",
+        "ar": "مسلسلات تستحق المشاهدة"
       },
       "videoThumbnails": [
+        {
+          "imageAlt": "We Neheb Tani Leh",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165746382/d-1",
+          "redirectUrl": "playlist-we_neheb_tani_leh-playlist-26269358"
+        },
+        {
+          "imageAlt": "Haza Al Masaa",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1163767875/d-1",
+          "redirectUrl": "playlist-haza_al_masaa-playlist-25108681"
+        },
+        {
+          "imageAlt": "La Totfea Al Shams",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1163816369/d-1",
+          "redirectUrl": "playlist-la_totfea_al_shams-playlist-25148765"
+        },
+        {
+          "imageAlt": "Al Ostoora",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165657587/d-1",
+          "redirectUrl": "playlist-al_ostoora-playlist-26090613"
+        },
         {
           "imageAlt": "Azraa",
           "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165753762/d-1",
@@ -154,7 +174,7 @@
     },
     {
       "title": {
-        "en": "Korean Series",
+        "en": "Korean Drama",
         "ar": "مسلسلات كورية"
       },
       "videoThumbnails": [
@@ -217,7 +237,7 @@
     },
     {
       "title": {
-        "en": "Viu Pakistani Originals",
+        "en": "Pakistani Series",
         "ar": "دراما باكستانية بالعربي"
       },
       "videoThumbnails": [
@@ -287,6 +307,26 @@
       },
       "videoThumbnails": [
         {
+          "imageAlt": "Reyah Al Sumoom",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165752769/d-1",
+          "redirectUrl": "playlist-reyah_al_sumoom-playlist-26269292"
+        },
+        {
+          "imageAlt": "Al khawabi",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165752774/d-1",
+          "redirectUrl": "playlist-al_khawabi-playlist-26269291"
+        },
+        {
+          "imageAlt": "Al Beit El Kebir - S3",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165672014/d-1",
+          "redirectUrl": "playlist-al_beit_el_kebir_s3-playlist-26207046"
+        },
+        {
+          "imageAlt": "Doon",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165529423/d-1",
+          "redirectUrl": "playlist-doon-playlist-25865093"
+        },
+        {
           "imageAlt": "Shahed Ayan",
           "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165746386/d-1",
           "redirectUrl": "playlist-shahed_ayan-playlist-26269285"
@@ -297,24 +337,9 @@
           "redirectUrl": "playlist-sultanet_al_moez-playlist-26269287"
         },
         {
-          "imageAlt": "Khoob seerat",
-          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165677185/d-1",
-          "redirectUrl": "playlist-khoob_seerat-playlist-26235941"
-        },
-        {
           "imageAlt": "We Neheb Tani Leh",
           "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165746382/d-1",
           "redirectUrl": "playlist-we_neheb_tani_leh-playlist-26269358"
-        },
-        {
-          "imageAlt": "Al khawabi",
-          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165752774/d-1",
-          "redirectUrl": "playlist-al_khawabi-playlist-26269291"
-        },
-        {
-          "imageAlt": "Reyah Al Sumoom",
-          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165752769/d-1",
-          "redirectUrl": "playlist-reyah_al_sumoom-playlist-26269292"
         },
         {
           "imageAlt": "Kopitiam Double Shot",
@@ -330,18 +355,13 @@
           "imageAlt": "Al December",
           "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165746433/d-1",
           "redirectUrl": "playlist-al_december-playlist-26269317"
-        },
-        {
-          "imageAlt": "Doon",
-          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165529423/d-1",
-          "redirectUrl": "playlist-doon-playlist-25865093"
         }
       ]
     },
     {
       "title": {
         "en": "Arabic Movies",
-        "ar": "أفلام الدراما والرومانسية"
+        "ar": "أفلام عربية"
       },
       "videoThumbnails": [
         {
@@ -383,10 +403,30 @@
     },
     {
       "title": {
-        "en": "Most Watched/ Popular Arabic Series",
-        "ar": "الأفلام و المسلسلات الأكثر مشاهدة"
+        "en": "Series U Can't Miss",
+        "ar": "مسلسلات تستحق المشاهدة"
       },
       "videoThumbnails": [
+        {
+          "imageAlt": "We Neheb Tani Leh",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165746382/d-1",
+          "redirectUrl": "playlist-we_neheb_tani_leh-playlist-26269358"
+        },
+        {
+          "imageAlt": "Haza Al Masaa",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1163767875/d-1",
+          "redirectUrl": "playlist-haza_al_masaa-playlist-25108681"
+        },
+        {
+          "imageAlt": "La Totfea Al Shams",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1163816369/d-1",
+          "redirectUrl": "playlist-la_totfea_al_shams-playlist-25148765"
+        },
+        {
+          "imageAlt": "Al Ostoora",
+          "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165657587/d-1",
+          "redirectUrl": "playlist-al_ostoora-playlist-26090613"
+        },
         {
           "imageAlt": "Azraa",
           "imageUrl": "https://vuclipi-a.akamaihd.net/p/cloudinary/h_276,w_184,dpr_1.5,f_auto,c_thumb,q_auto:low/1165753762/d-1",
@@ -426,7 +466,7 @@
     },
     {
       "title": {
-        "en": "Korean Series",
+        "en": "Korean Drama",
         "ar": "مسلسلات كورية"
       },
       "videoThumbnails": [
@@ -489,7 +529,7 @@
     },
     {
       "title": {
-        "en": "Viu Pakistani Originals",
+        "en": "Pakistani Series",
         "ar": "دراما باكستانية بالعربي"
       },
       "videoThumbnails": [
