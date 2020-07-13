@@ -2,8 +2,8 @@
   "error": {
     "title": "Unauthorised",
     "description": {
-      "en": "Oops, something went wrong! But here are some titles you can enjoy...!",
-      "ar": "للأسف، حدث خطأ ما! ولكن هذه قائمة من المحتوى الذي يمكنك الإستمتاع به..."
+      "en": "Sorry, we couldn't take you where you wanted. But, here are some titles you can enjoy from the Viu library.",
+      "ar": "عذرا لم نستطع أخذك للصفحة التي ترغبها. ولكن هذه قائمة من المحتوى المتاح على Viu الذي يمكنك مشاهدته."
     },
     "code": "404"
   },
